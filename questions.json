@@ -2,95 +2,275 @@
   "Lernfelder": {
     "1": [
       {
-        "question": "Welche Aufgabe hat der Fachinformatiker Systemintegration im Lernfeld 1?",
-        "options": ["Hardware montieren", "Anwendungen analysieren und konfigurieren", "Netzwerke planen", "Datenbanken sichern"],
+        "question": "Welche Komponenten analysiert man im Lernfeld 1?",
+        "options": ["Nur Software", "IT-Systeme und Anwendungen", "Nur Hardware", "Küchengeräte"],
         "correct": 1
       },
       {
-        "question": "Was ist ein Use Case?",
-        "options": ["Hardware Komponente", "Benutzeranforderungsszenario", "Netzwerkprotokoll", "Programmiersprache"],
+        "question": "Was ist eine Anforderungsanalyse?",
+        "options": ["Hardware Test", "Ermittlung von Funktionalitäten", "Backup", "Drucken"],
         "correct": 1
+      },
+      {
+        "question": "Beispiel für nicht-funktionale Anforderung?",
+        "options": ["Login möglich", "Max 2s Ladezeit", "Daten speichern", "Benutzer registrieren"],
+        "correct": 1
+      },
+      {
+        "question": "Tool für Anforderungsdokumentation?",
+        "options": ["Excel", "ReqView", "Paint", "Notepad"],
+        "correct": 1
+      },
+      {
+        "question": "Was ist ein Stakeholder?",
+        "options": ["Kunde/Betroffener", "Festplatte", "Kabel", "Monitor"],
+        "correct": 0
       }
     ],
     "2": [
       {
-        "question": "Welche Methode wird zur Anforderungsanalyse verwendet?",
-        "options": ["UML", "SQL", "HTML", "TCP"],
+        "question": "Welche UML-Diagrammart für Prozesse?",
+        "options": ["Klassendiagramm", "Use Case", "Aktivitätsdiagramm", "Komponentendiagramm"],
+        "correct": 2
+      },
+      {
+        "question": "Zweck von Use Case Diagrammen?",
+        "options": ["Hardware Layout", "Funktionale Anforderungen", "Netzwerk", "Datenbank"],
+        "correct": 1
+      },
+      {
+        "question": "Actor in UML?",
+        "options": ["System", "Externer Akteur", "Funktion", "Daten"],
+        "correct": 1
+      },
+      {
+        "question": "Welches Diagramm für Sequenz?",
+        "options": ["Sequenzdiagramm", "Klassendiagramm", "Deployment", "Statechart"],
         "correct": 0
       }
     ],
     "3": [
       {
-        "question": "Was ist ein Client-Server-Modell?",
-        "options": ["P2P Netzwerk", "Zentrale Server mit Clients", "Standalone PC", "Cloud only"],
+        "question": "Was ist ein 3-Schicht-Architektur?",
+        "options": ["Hardware only", "Presentation/Business/Data", "Netzwerk only", "Cloud"],
         "correct": 1
+      },
+      {
+        "question": "MVC steht für?",
+        "options": ["Model View Controller", "Main Virtual Computer", "Multi Version Control", "Minimum Value Calculation"],
+        "correct": 0
+      },
+      {
+        "question": "Monolithische Architektur?",
+        "options": ["Mikroservices", "Einheitliche App", "Serverless", "P2P"],
+        "correct": 1
+      },
+      {
+        "question": "Vorteil von Microservices?",
+        "options": ["Einfachheit", "Skalierbarkeit", "Weniger Code", "Keine Netzwerke"],
+        "correct": 1
+      },
+      {
+        "question": "RESTful API Prinzip?",
+        "options": ["Stateless", "Stateful", "Synchronous only", "Binary"],
+        "correct": 0
       }
     ],
     "4": [
       {
-        "question": "Welches Protokoll für Web?",
-        "options": ["HTTP/HTTPS", "FTP", "SMTP", "DNS"],
+        "question": "OSI Layer 1?",
+        "options": ["Transport", "Physical", "Network", "Application"],
+        "correct": 1
+      },
+      {
+        "question": "Protokoll Layer 4?",
+        "options": ["TCP/UDP", "IP", "Ethernet", "HTTP"],
         "correct": 0
+      },
+      {
+        "question": "Was ist DHCP?",
+        "options": ["DNS", "IP-Zuweisung", "Firewall", "VPN"],
+        "correct": 1
+      },
+      {
+        "question": "Subnet Mask Zweck?",
+        "options": ["Netzwerk teilen", "Passwort", "DNS", "Port"],
+        "correct": 0
+      },
+      {
+        "question": "IPv6 Vorteil?",
+        "options": ["Weniger Adressen", "Mehr Adressen", "Schneller", "Weniger sicher"],
+        "correct": 1
       }
     ],
     "5": [
       {
-        "question": "Was ist Active Directory?",
-        "options": ["Dateisystem", "Verzeichnisdienst von Microsoft", "Firewall", "Browser"],
-        "correct": 1
+        "question": "Active Directory Domain?",
+        "options": ["Gruppe von PCs", "Single PC", "Datei", "Drucker"],
+        "correct": 0
+      },
+      {
+        "question": "Group Policy für?",
+        "options": ["Konfiguration zentral", "Hardware", "Netzwerkkabel", "Monitor"],
+        "correct": 0
+      },
+      {
+        "question": "OU in AD?",
+        "options": ["Organizational Unit", "Operating Unit", "Online User", "Open Unit"],
+        "correct": 0
       }
     ],
     "6": [
       {
-        "question": "Welche Schicht ist OSI Layer 3?",
-        "options": ["Transport", "Network", "Physical", "Application"],
+        "question": "Switch vs Hub?",
+        "options": ["Hub broadcast", "Switch intelligent", "Gleich", "Hub schneller"],
+        "correct": 1
+      },
+      {
+        "question": "VLAN Zweck?",
+        "options": ["Logische Segmentierung", "Physisch trennen", "Schneller machen", "Sicherer Kabel"],
+        "correct": 0
+      },
+      {
+        "question": "WiFi Standard 802.11ax?",
+        "options": ["WiFi 4", "WiFi 6", "WiFi 5", "Bluetooth"],
+        "correct": 1
+      },
+      {
+        "question": "Firewall Funktion?",
+        "options": ["Alle Traffic", "Zugriffskontrolle", "Speed up", "Speichern"],
         "correct": 1
       }
     ],
     "7": [
       {
-        "question": "Was ist Virtualisierung?",
-        "options": ["Physische Hardware", "Abstraktion von Ressourcen", "Papierformular", "Kabeltypen"],
+        "question": "Hypervisor Typ 1?",
+        "options": ["Hosted", "Bare Metal", "Cloud only", "Container"],
         "correct": 1
+      },
+      {
+        "question": "VMware oder Hyper-V?",
+        "options": ["Virtualisierungssoftware", "Betriebssystem", "Browser", "Antivirus"],
+        "correct": 0
+      },
+      {
+        "question": "VM Migration?",
+        "options": ["VMotion", "Copy Paste", "Neuinstall", "Löschen"],
+        "correct": 0
       }
     ],
     "8": [
       {
-        "question": "Welches Tool für Netzwerkanalyse?",
-        "options": ["Wireshark", "Excel", "Word", "Paint"],
+        "question": "Wireshark nutzt man für?",
+        "options": ["Packet Capture", "Text edit", "Image", "Audio"],
+        "correct": 0
+      },
+      {
+        "question": "iPerf misst?",
+        "options": ["Bandbreite", "CPU", "RAM", "HDD"],
+        "correct": 0
+      },
+      {
+        "question": "Netzwerk Topologie Stern?",
+        "options": ["Zentral Switch", "Ring", "Bus", "Mesh"],
+        "correct": 0
+      },
+      {
+        "question": "Ping Command?",
+        "options": ["ICMP Echo", "DNS Lookup", "Port Scan", "File Transfer"],
         "correct": 0
       }
     ],
     "9": [
       {
-        "question": "Was ist SQL Injection?",
-        "options": ["Legitime Abfrage", "Angriff auf Datenbanken", "Dateikomprimierung", "Backup Methode"],
-        "correct": 1
+        "question": "SQL Injection verhindern?",
+        "options": ["Prepared Statements", "Alle Eingaben", "Passwort ändern", "Firewall"],
+        "correct": 0
+      },
+      {
+        "question": "2FA?",
+        "options": ["2 Factor Auth", "2 Files Access", "2 Firewall", "2 VPN"],
+        "correct": 0
+      },
+      {
+        "question": "Phishing?",
+        "options": ["Angriff per Email", "Hardware", "Software Update", "Backup"],
+        "correct": 0
+      },
+      {
+        "question": "SSL/TLS für?",
+        "options": ["Verschlüsselung", "Komprimierung", "Speed", "Speicher"],
+        "correct": 0
+      },
+      {
+        "question": "Zero Trust Modell?",
+        "options": ["Niemand vertrauen", "Alle vertrauen", "Nur intern", "Nur extern"],
+        "correct": 0
       }
     ],
     "10": [
       {
-        "question": "Welche Programmiersprache für Web-Backend?",
-        "options": ["Python/Django", "HTML", "CSS", "Photoshop"],
+        "question": "Git Branch?",
+        "options": ["Parallel Entwicklung", "Main only", "Delete", "Copy"],
+        "correct": 0
+      },
+      {
+        "question": "Docker Image?",
+        "options": ["Template für Container", "Running Container", "VM", "Kabel"],
+        "correct": 0
+      },
+      {
+        "question": "CI/CD Pipeline?",
+        "options": ["Continuous Integration/Deployment", "Copy Install", "Cloud Image", "Code Interpreter"],
+        "correct": 0
+      },
+      {
+        "question": "Agile Scrum Role Product Owner?",
+        "options": ["Priorisiert Backlog", "Daily Scrum", "Code schreibt", "Testet"],
         "correct": 0
       }
     ],
     "11": [
       {
-        "question": "Was ist ein Container?",
-        "options": ["Docker/Virtualisierung Leichtgewicht", "Hardware Box", "Kabelbox", "Festplatte"],
+        "question": "Kubernetes orchestriert?",
+        "options": ["Container", "VMs", "Hardware", "Netzwerke"],
+        "correct": 0
+      },
+      {
+        "question": "Ansible für?",
+        "options": ["Configuration Management", "Programming", "Database", "Web"],
+        "correct": 0
+      },
+      {
+        "question": "Terraform?",
+        "options": ["Infrastructure as Code", "Code as Infra", "Test Framework", "UI Framework"],
         "correct": 0
       }
     ],
     "12": [
       {
-        "question": "Welcher Prozess bei Systemintegration?",
-        "options": ["Projektmanagement", "Kochen", "Malen", "Sport"],
+        "question": "ITIL Service Lifecycle?",
+        "options": ["Strategy, Design, Transition...", "Hardware only", "Software only", "Netzwerk only"],
         "correct": 0
       },
       {
-        "question": "Was ist ITIL?",
-        "options": ["Framework für IT-Service-Management", "Hardware Standard", "Programmiersprache", "Netzwerk Topologie"],
+        "question": "Projektmanagement Tool?",
+        "options": ["Jira", "Excel", "Word", "Paint"],
+        "correct": 0
+      },
+      {
+        "question": "COBIT Framework für?",
+        "options": ["IT Governance", "Hardware Montage", "Kochen", "Sport"],
+        "correct": 0
+      },
+      {
+        "question": "KPI steht für?",
+        "options": ["Key Performance Indicator", "Key Project Info", "Known Problem Issue", "Key Personal Info"],
+        "correct": 0
+      },
+      {
+        "question": "Change Management Prozess?",
+        "options": ["Änderungen kontrollieren", "Neues bauen", "Testen", "Löschen"],
         "correct": 0
       }
     ]
