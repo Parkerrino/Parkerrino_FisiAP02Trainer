@@ -1,0 +1,98 @@
+{
+  "Lernfelder": {
+    "1": [
+      {
+        "question": "Welche Aufgabe hat der Fachinformatiker Systemintegration im Lernfeld 1?",
+        "options": ["Hardware montieren", "Anwendungen analysieren und konfigurieren", "Netzwerke planen", "Datenbanken sichern"],
+        "correct": 1
+      },
+      {
+        "question": "Was ist ein Use Case?",
+        "options": ["Hardware Komponente", "Benutzeranforderungsszenario", "Netzwerkprotokoll", "Programmiersprache"],
+        "correct": 1
+      }
+    ],
+    "2": [
+      {
+        "question": "Welche Methode wird zur Anforderungsanalyse verwendet?",
+        "options": ["UML", "SQL", "HTML", "TCP"],
+        "correct": 0
+      }
+    ],
+    "3": [
+      {
+        "question": "Was ist ein Client-Server-Modell?",
+        "options": ["P2P Netzwerk", "Zentrale Server mit Clients", "Standalone PC", "Cloud only"],
+        "correct": 1
+      }
+    ],
+    "4": [
+      {
+        "question": "Welches Protokoll für Web?",
+        "options": ["HTTP/HTTPS", "FTP", "SMTP", "DNS"],
+        "correct": 0
+      }
+    ],
+    "5": [
+      {
+        "question": "Was ist Active Directory?",
+        "options": ["Dateisystem", "Verzeichnisdienst von Microsoft", "Firewall", "Browser"],
+        "correct": 1
+      }
+    ],
+    "6": [
+      {
+        "question": "Welche Schicht ist OSI Layer 3?",
+        "options": ["Transport", "Network", "Physical", "Application"],
+        "correct": 1
+      }
+    ],
+    "7": [
+      {
+        "question": "Was ist Virtualisierung?",
+        "options": ["Physische Hardware", "Abstraktion von Ressourcen", "Papierformular", "Kabeltypen"],
+        "correct": 1
+      }
+    ],
+    "8": [
+      {
+        "question": "Welches Tool für Netzwerkanalyse?",
+        "options": ["Wireshark", "Excel", "Word", "Paint"],
+        "correct": 0
+      }
+    ],
+    "9": [
+      {
+        "question": "Was ist SQL Injection?",
+        "options": ["Legitime Abfrage", "Angriff auf Datenbanken", "Dateikomprimierung", "Backup Methode"],
+        "correct": 1
+      }
+    ],
+    "10": [
+      {
+        "question": "Welche Programmiersprache für Web-Backend?",
+        "options": ["Python/Django", "HTML", "CSS", "Photoshop"],
+        "correct": 0
+      }
+    ],
+    "11": [
+      {
+        "question": "Was ist ein Container?",
+        "options": ["Docker/Virtualisierung Leichtgewicht", "Hardware Box", "Kabelbox", "Festplatte"],
+        "correct": 0
+      }
+    ],
+    "12": [
+      {
+        "question": "Welcher Prozess bei Systemintegration?",
+        "options": ["Projektmanagement", "Kochen", "Malen", "Sport"],
+        "correct": 0
+      },
+      {
+        "question": "Was ist ITIL?",
+        "options": ["Framework für IT-Service-Management", "Hardware Standard", "Programmiersprache", "Netzwerk Topologie"],
+        "correct": 0
+      }
+    ]
+  }
+}
