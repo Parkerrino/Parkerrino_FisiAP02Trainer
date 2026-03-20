@@ -6,15 +6,25 @@ import os
 # Load questions
 @st.cache_data
 def load_questions():
-    with open('questions.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return data['Lernfelder']
+    try:
+        with open('questions.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        if 'AP02_Pruefung_Block1' not in data:
+            st.error("❌ questions.json fehlt 'AP02_Pruefung_Block1'. Fix JSON!")
+            st.stop()
+        return data['AP02_Pruefung_Block1']
+    except Exception as e:
+        st.error(f"❌ JSON laden fehlgeschlagen: {e}")
+        st.stop()
+        return {}
 
 # App
 st.set_page_config(page_title="AP02 Fisi Trainer", page_icon="🚀", layout="wide")
 
+st.info("👉 **App starten:** `streamlit run app.py` (nicht `python app.py`)")
+
 st.title("🚀 Moderner AP02 Fisi Trainer")
-st.markdown("Zufällige Fragen aus allen 12 Lernfeldern. Erweitere einfach `questions.json`!")
+st.markdown("**Zufällige Fragen aus AP02 Prüfungsblock 1.** Erweitere `questions.json`!")
 
 if 'score' not in st.session_state:
     st.session_state.score = 0
@@ -25,26 +35,21 @@ if 'score' not in st.session_state:
 
 # Sidebar
 st.sidebar.header("Einstellungen")
-field_choice = st.sidebar.selectbox(
-    "Lernfeld wählen:",
-    options=['Zufällig aus allen'] + [f"LF {k}" for k in st.session_state.questions.keys()]
-)
+st.sidebar.success("📚 AP02 Prüfungsblock 1")
 
 if st.sidebar.button("Neue Session starten", type="primary"):
     st.session_state.score = 0
     st.session_state.total = 0
     st.rerun()
 
+# questions is now the list directly
+questions_list = st.session_state.questions
+
 # Generate question
 if st.session_state.current_question is None:
-    if field_choice == 'Zufällig aus allen':
-        field_key = random.choice(list(st.session_state.questions.keys()))
-    else:
-        field_key = str(int(field_choice.split()[-1]))
-    
-    field_questions = st.session_state.questions[field_key]
+    field_questions = questions_list  # Single field list
     st.session_state.current_question = random.choice(field_questions)
-    st.session_state.field_name = f"LF {field_key}"
+    st.session_state.field_name = "AP02 Block 1"
 
 with st.container():
     col1, col2 = st.columns([3, 1])
