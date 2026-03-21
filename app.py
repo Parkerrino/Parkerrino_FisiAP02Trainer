@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import time
 import random
 import os
 
@@ -29,6 +30,7 @@ st.markdown("**Zufällige Fragen aus AP02 Prüfungsblock 1.** Erweitere `questio
 if 'score' not in st.session_state:
     st.session_state.score = 0
     st.session_state.total = 0
+    st.session_state.start_time = time.time()
     st.session_state.questions = load_questions()
     st.session_state.current_question = None
     st.session_state.field_name = None
@@ -40,6 +42,7 @@ st.sidebar.success("📚 AP02 Prüfungsblock 1")
 if st.sidebar.button("Neue Session starten", type="primary"):
     st.session_state.score = 0
     st.session_state.total = 0
+    st.session_state.start_time = time.time()
     st.rerun()
 
 # questions is now the list directly
@@ -87,6 +90,11 @@ with st.container():
         st.rerun()
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Erweiterung:** Füge Fragen in `questions.json` hinzu. Format: `{\"question\": \"...\", \"options\": [\"A\", \"B\"], \"correct\": 1}`")
+
 st.text("Hallo Charlie :)")
-st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmIzZTFjdnI2N2plbjBlYWJuczJ3ZTZqbTY3cHVhNTliMGdwa2tlNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ASd0Ukj0y3qMM/giphy.gif", width=300)
+
+elapsed = time.time() - st.session_state.start_time
+hours = elapsed / 3600
+minutes = (elapsed % 3600) / 60
+seconds = elapsed % 60
+st.text(f"Zeit gelernt: {hours:.1f} Stunden {minutes:.0f} Minuten {seconds:.0f} Sekunden")

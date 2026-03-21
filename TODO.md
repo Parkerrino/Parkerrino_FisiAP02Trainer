@@ -1,9 +1,11 @@
-# JSON Fix Plan - AP02Trainer
+# Timer Implementation Plan
 
 ## Steps:
-- [x] Step 1: Fix missing comma in questions.json after iPerf question object
-- [x] Step 2: Fix missing comma in VPN question (question lacks ?)
-- [x] Step 3: Install streamlit if needed (`pip install -r requirements.txt`) & run `streamlit run app.py`
-- [x] Step 4: Verify no other syntax issues and complete task
+- [x] 1. Add `import time` at top of app.py
+- [x] 2. Initialize `st.session_state.start_time = time.time()` in session state init
+- [x] 3. Reset `st.session_state.start_time = time.time()` on "Neue Session starten" button
+- [x] 4. Replace `st.text("Zeit gelernt: 0 Stunden")` with dynamic timer display using elapsed time
 
-Current progress: Step 3 completed (JSON valid, app ready). Run `pip install -r requirements.txt` then `streamlit run app.py` to test.
+
+Progress will be updated after each step.
+
