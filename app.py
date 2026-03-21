@@ -89,3 +89,4 @@ with st.container():
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Erweiterung:** Füge Fragen in `questions.json` hinzu. Format: `{\"question\": \"...\", \"options\": [\"A\", \"B\"], \"correct\": 1}`")
 st.text("Hallo Charlie :)")
+st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmIzZTFjdnI2N2plbjBlYWJuczJ3ZTZqbTY3cHVhNTliMGdwa2tlNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ASd0Ukj0y3qMM/giphy.gif", width=300)
