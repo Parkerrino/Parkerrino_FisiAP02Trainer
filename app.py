@@ -88,3 +88,4 @@ with st.container():
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Erweiterung:** Füge Fragen in `questions.json` hinzu. Format: `{\"question\": \"...\", \"options\": [\"A\", \"B\"], \"correct\": 1}`")
+st.text("Hallo Charlie :)")
