@@ -232,7 +232,7 @@
       "question": "Was misst iPerf?",
       "options": ["Bandbreite", "CPU", "RAM", "Storage"],
       "correct": 0
-    }
+    },
     {
       "question": "Was ist ein VPN?",
       "options": ["Virtuelles Privates Netzwerk", "Verschlüsselung", "Backup", "Firewall"],
