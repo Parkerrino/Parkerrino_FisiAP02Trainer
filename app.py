@@ -92,7 +92,7 @@ with st.container():
 st.sidebar.markdown("---")
 
 st.text("Hallo Charlie :)")
-st.image("https://giphy.com/gifs/happy-employee-appreciation-day-team-recognition-shoutout-90i57v7Fl8EP6Kylf8")
+st.image("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnFvdXN0cXdyeXZtZGl4djQ1ZWlqa3dhd3JrZG5hM3Nnemk1cmJ4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/90i57v7Fl8EP6Kylf8/giphy.gif")
 
 elapsed = time.time() - st.session_state.start_time
 hours = elapsed / 3600
