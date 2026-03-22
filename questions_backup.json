@@ -1,0 +1,248 @@
+{
+  "AP02_Pruefung_Block1": [
+    {
+      "question": "Ein Client erhält keine IP-Adresse. Welche Ursache ist am wahrscheinlichsten?",
+      "options": ["DNS Server ausgefallen", "DHCP Server nicht erreichbar", "Switch defekt", "Firewall blockiert HTTP"],
+      "correct": 1
+    },
+    {
+      "question": "Welche Aussage zu TCP ist korrekt?",
+      "options": ["Verbindungslos", "Unzuverlässig", "Verbindungsorientiert", "Schneller als UDP"],
+      "correct": 2
+    },
+    {
+      "question": "Welche Aufgabe hat ARP?",
+      "options": ["IP zu MAC auflösen", "DNS ersetzen", "Routing durchführen", "Ports öffnen"],
+      "correct": 0
+    },
+    {
+      "question": "Was passiert bei einem VLAN?",
+      "options": ["Physische Trennung", "Logische Trennung", "Mehr Bandbreite", "Weniger IPs"],
+      "correct": 1
+    },
+    {
+      "question": "Welche Schicht im OSI-Modell ist für Routing zuständig?",
+      "options": ["Layer 2", "Layer 3", "Layer 4", "Layer 7"],
+      "correct": 1
+    },
+
+    {
+      "question": "Ein Server ist nur über IP erreichbar, aber nicht über Namen. Ursache?",
+      "options": ["DHCP Fehler", "DNS Problem", "Routing Fehler", "Firewall"],
+      "correct": 1
+    },
+    {
+      "question": "Was ist ein Vorteil von RAID 1?",
+      "options": ["Mehr Speicherplatz", "Spiegelung", "Schneller Zugriff", "Keine Redundanz"],
+      "correct": 1
+    },
+    {
+      "question": "Was bedeutet NAT?",
+      "options": ["Network Address Translation", "Network Access Tool", "New Address Table", "Node Access Transfer"],
+      "correct": 0
+    },
+    {
+      "question": "Welche Aussage zu UDP ist korrekt?",
+      "options": ["Verbindungsorientiert", "Zuverlässig", "Schnell und ohne Garantie", "Nutzt Handshake"],
+      "correct": 2
+    },
+    {
+      "question": "Was macht ein Load Balancer?",
+      "options": ["Daten speichern", "Traffic verteilen", "Ports öffnen", "IP vergeben"],
+      "correct": 1
+    },
+
+    {
+      "question": "Was ist ein Default Gateway?",
+      "options": ["DNS Server", "Router ins andere Netz", "Switch", "Firewall"],
+      "correct": 1
+    },
+    {
+      "question": "Welche Aussage zu IPv6 ist korrekt?",
+      "options": ["32 Bit", "128 Bit", "Weniger Adressen", "Nur lokal nutzbar"],
+      "correct": 1
+    },
+    {
+      "question": "Was ist ein Port?",
+      "options": ["Physischer Anschluss", "Logischer Kommunikationsendpunkt", "IP Adresse", "Subnetz"],
+      "correct": 1
+    },
+    {
+      "question": "Was macht eine Firewall?",
+      "options": ["Speichern", "Zugriff filtern", "IP vergeben", "Datenbank verwalten"],
+      "correct": 1
+    },
+    {
+      "question": "Welche Aufgabe hat ein Switch?",
+      "options": ["Broadcast an alle", "Weiterleitung anhand MAC", "Routing", "DNS"],
+      "correct": 1
+    },
+
+    {
+      "question": "Was ist ein Vorteil von Virtualisierung?",
+      "options": ["Mehr Hardwarebedarf", "Bessere Auslastung", "Weniger Flexibilität", "Keine Isolation"],
+      "correct": 1
+    },
+    {
+      "question": "Was ist ein Hypervisor Typ 1?",
+      "options": ["Hosted", "Bare Metal", "Cloud", "Container"],
+      "correct": 1
+    },
+    {
+      "question": "Was ist ein Snapshot?",
+      "options": ["Backup Zustand", "Migration", "Firewall Regel", "Routing"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein Container?",
+      "options": ["VM", "Leichtgewichtige Virtualisierung", "Hardware", "Switch"],
+      "correct": 1
+    },
+    {
+      "question": "Was macht Kubernetes?",
+      "options": ["Container orchestrieren", "VM erstellen", "DNS ersetzen", "Firewall ersetzen"],
+      "correct": 0
+    },
+
+    {
+      "question": "Was ist eine SQL Injection?",
+      "options": ["Hardwarefehler", "Angriff auf Datenbank", "Backup", "Netzwerkproblem"],
+      "correct": 1
+    },
+    {
+      "question": "Was bedeutet 2FA?",
+      "options": ["2 Firewalls", "2 Faktor Authentifizierung", "2 Netzwerke", "2 Server"],
+      "correct": 1
+    },
+    {
+      "question": "Was ist Phishing?",
+      "options": ["Angriff per Mail", "Hardware", "Software Update", "Backup"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist TLS?",
+      "options": ["Verschlüsselung", "Komprimierung", "Backup", "Routing"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist Zero Trust?",
+      "options": ["Allen vertrauen", "Niemandem vertrauen", "Nur intern", "Nur extern"],
+      "correct": 1
+    },
+
+    {
+      "question": "Was ist Git?",
+      "options": ["Versionsverwaltung", "Firewall", "DB", "OS"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein Branch?",
+      "options": ["Parallelentwicklung", "Löschen", "Backup", "Clone"],
+      "correct": 0
+    },
+    {
+      "question": "Was bedeutet CI/CD?",
+      "options": ["Automatisierte Prozesse", "Backup", "Cloud", "Netzwerk"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist Docker?",
+      "options": ["Container Plattform", "VM", "Switch", "Firewall"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein Image?",
+      "options": ["Template", "Laufender Container", "Netzwerk", "IP"],
+      "correct": 0
+    },
+
+    {
+      "question": "Was ist DNS?",
+      "options": ["Name zu IP", "IP zu MAC", "Routing", "Firewall"],
+      "correct": 0
+    },
+    {
+      "question": "Was macht DHCP?",
+      "options": ["IP vergeben", "Routing", "DNS ersetzen", "Firewall"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein Subnetz?",
+      "options": ["Teil eines Netzwerks", "Router", "Firewall", "DNS"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist eine MAC-Adresse?",
+      "options": ["Physische Adresse", "IP Adresse", "Port", "DNS"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist Routing?",
+      "options": ["Daten weiterleiten", "Speichern", "Filtern", "Verschlüsseln"],
+      "correct": 0
+    },
+
+    {
+      "question": "Was ist ein Incident?",
+      "options": ["Störung", "Projekt", "Feature", "Backup"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein SLA?",
+      "options": ["Vertrag über Servicequalität", "Firewall Regel", "Backup", "Tool"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist Change Management?",
+      "options": ["Änderungen kontrollieren", "Testen", "Löschen", "Programmieren"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein KPI?",
+      "options": ["Kennzahl", "Tool", "Netzwerk", "Server"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ITIL?",
+      "options": ["Best Practice Framework", "Hardware", "Software", "Netzwerk"],
+      "correct": 0
+    },
+
+    {
+      "question": "Was zeigt tracert?",
+      "options": ["Route", "IP", "MAC", "DNS"],
+      "correct": 0
+    },
+    {
+      "question": "Was macht ping?",
+      "options": ["Erreichbarkeit testen", "DNS ändern", "Port scannen", "Routing"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein Portscan?",
+      "options": ["Offene Ports prüfen", "IP ändern", "DNS", "Backup"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist Wireshark?",
+      "options": ["Packet Analyzer", "Firewall", "Switch", "Router"],
+      "correct": 0
+    },
+    {
+      "question": "Was misst iPerf?",
+      "options": ["Bandbreite", "CPU", "RAM", "Storage"],
+      "correct": 0
+    },
+    {
+      "question": "Was ist ein VPN?",
+      "options": ["Virtuelles Privates Netzwerk", "Verschlüsselung", "Backup", "Firewall"],
+      "correct": 0
+    }
+    
+
+
+
+
+
+  ]
+}

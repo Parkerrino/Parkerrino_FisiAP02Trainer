@@ -19,24 +19,36 @@
 
 ❌ **Nicht**: `python app.py` (verursacht Errors!)
 
+## 📝 Blocks verfügbar
+- **AP02_Pruefung_Block1**: Basisfragen (Netzwerke, Sicherheit, Virtualisierung, ITIL) – ~47 Fragen
+- **AP02_Pruefung_Block2_Schwer**: Schwierige Abschlussprüfungsfragen (25 Fragen):
+  - Routing (OSPF LSA, BGP AS_PATH, ACL, SD-WAN)
+  - Active Directory (GPO BitLocker, Azure AD Connect)
+  - Kubernetes/Docker (Pod rescheduling, Swarm replicas)
+  - Linux (systemd mount, SELinux enforcing, nftables SSH)
+  - Sicherheit (SIEM Correlation, WPA3 EAP-TLS, Zero Trust)
+  - Monitoring (Prometheus scrape, ELK grok)
+  - Windows (DSC xWindowsFeature, SCCM Deployment, Hyper-V Live Migration)
+  - VMware/ITIL (DRS Anti-Affinity, P1 Incident)
+
 ## 📝 Fragen erweitern
-**questions.json** bearbeiten:
+**questions.json** bearbeiten (Backup: questions_backup.json):
 ```json
 {
-  "AP02_Pruefung_Block1": [
+  "NEUER_BLOCK": [
     {
       "question": "Deine Frage?",
       "options": ["A", "B", "C", "D"],
-      "correct": 1  // Index (0-3)
+      "correct": 1  // Index 0-3
     }
   ]
 }
 ```
-Füge Felder hinzu, z.B. `"LF2": [...]`.
+App lädt neue Blocks automatisch (erweitere app.py für Auswahl).
 
 ## 🔧 Troubleshooting
-- KeyError? Fix JSON-Struktur.
-- Streamlit not found? `pip install streamlit`.
-- Mehr Felder? Sidebar passt sich an.
+- JSON Error? Validiere Syntax.
+- Streamlit fehlt? `pip install streamlit`.
 
-**Genieße das Lernen! 🎯**
+**Viel Erfolg bei der FISI Abschlussprüfung! 💪 Neue schwierige Fragen trainieren Block2_Schwer!**
+

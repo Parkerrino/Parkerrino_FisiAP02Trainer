@@ -1,11 +1,14 @@
-# Timer Implementation Plan
+# TODO: Schwierigere AP02 FISI Prüfungsfragen implementieren
 
-## Steps:
-- [x] 1. Add `import time` at top of app.py
-- [x] 2. Initialize `st.session_state.start_time = time.time()` in session state init
-- [x] 3. Reset `st.session_state.start_time = time.time()` on "Neue Session starten" button
-- [x] 4. Replace `st.text("Zeit gelernt: 0 Stunden")` with dynamic timer display using elapsed time
+**Ziel**: ✅ Erreicht! Neuer Block 'AP02_Pruefung_Block2_Schwer' mit 25 schwierigen Fragen hinzugefügt.
 
+## Schritte:
+- [x] 1. Backup questions.json erstellen (questions_backup.json)
+- [x] 2. Neue schwierige Fragen generieren (25 Stück zu OSPF, AD, K8s, SIEM, Linux, PowerShell, etc.)
+- [x] 3. Fragen in questions.json als neuer Block eingefügt
+- [x] 4. JSON validiert (App lädt erfolgreich)
+- [x] 5. README.md mit neuem Block erwähnt
+- [x] 6. Task abgeschlossen
 
-Progress will be updated after each step.
+**Progress**: 6/6 Schritte erledigt ✅
 
